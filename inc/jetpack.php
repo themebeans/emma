@@ -7,11 +7,8 @@
  * @link        https://themebeans.com/themes/emma
  */
 
-
-
 if ( ! function_exists( 'emma_jetpack_setup' ) ) :
 	function emma_jetpack_setup() {
-
 		/*
 		 * Let JetPack manage the site logo.
 		 * By adding theme support, we declare that this theme does use the default
@@ -27,8 +24,6 @@ if ( ! function_exists( 'emma_jetpack_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'emma_jetpack_setup' );
 
-
-
 /**
  * Halves the size of the JetPack site logo to make it retina ready.
  *
@@ -39,7 +34,6 @@ add_action( 'after_setup_theme', 'emma_jetpack_setup' );
  */
 function emma_retina_jetpack_site_logo( $html, $logo, $size ) {
 
-	// Checker, comes from jetpack_the_site_logo
 	if ( ! jetpack_has_site_logo() ) {
 		return $html;
 	}
