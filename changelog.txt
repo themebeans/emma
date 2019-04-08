@@ -1,0 +1,247 @@
+** Emma Changelog **
+
+06 April 2019, Version 2.3.0
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Admin 1.6.1
+
+18 December 2018, Version 2.2.3
+	Fixes & Updates:
+		* Added minified Customizer JS and editor stylesheet assets with auto-prefixing
+		* Improved debug mode that works with minified asset delivery throughout the entire theme
+
+
+19 December 2017, Version 2.2.2
+	Fixes & Updates:
+		* Admin 1.3.0
+		* Localized jquery.validate for the RSVP template
+		* PHPCS fixes for even cleaner code
+		* Updated languages
+
+
+10 November 2017, Version 2.2.1
+	New:
+		* Introduced a new license Customizer control for managing your theme license
+		* Removed the dashboard license widget
+		* Added support for core custom logo functionality
+
+	Fixes & Updates:
+		* Migrated the site_logo Customizer option to the core WordPress custom_logo option
+		* Updated languages
+
+
+24 August 2017 - Version 2.2.0
+	New:
+		* Added CSSComb support for more efficient stylesheets
+		* Added Gulp minification to all front-end stylesheets and scripts 🚀
+		* Added the theme version to the dashboard footer to help you stay up to date with what's new
+
+	Fixes & Updates:
+		* Fixed an issue if you were wanting to use Emma's blog as your home page
+		* Updated /admin/ to v1.1.2
+		* Improved script loading on the front-end
+		* Organized css/image/js assets into the /assets/ folder
+		* Added conditional checks for Envato Hosted accounts
+		* Updated file headers
+		* Updated languages
+
+
+16 June 2017 - Version 2.1.2
+	Fixes & Updates:
+		* Removed video widget, as it's included in WP Core 4.8 now
+
+
+20 April 2017 - Version 2.1.1
+	New:
+		* Added support for WPML. New wpml-config.xml file.
+
+
+12 April 2016 - Version 2.1.0
+	New:
+		* Emma now requires at least WordPress version 4.7
+		* New starter content to help you get started! Now it's much quicker to get your site up and running 🏃
+		* Added the theme version to the dashboard footer, next to the WordPress version
+		* Incorporated the WordPress 4.7 get_theme_file_uri() function for enhanced child theming
+		* Incorporated the WordPress 4.7 get_parent_theme_file_path() function for enhanced child theming
+		* Improved performance by adding resource hints to browsers for pre-fetching, pre-rendering and pre-connecting for Google fonts
+		* Removed the Home Template, as it's now the default home page
+		* Add new Customizer options for the home hero area content
+		* Automatic Customizer setting migrations for older theme_mod settings to the new and improved settings
+
+   Fixes & Updates:
+		* Faster load times. Nearly 2x as fast! 🚀
+		* Updated and improved the home section page selector UI in the Customizer
+		* Now you can filter the number of sections you'd like on the home page with the emma_front_page_sections() function
+		* Updated languages
+
+
+25 November 2016 - Version 2.0.2
+	New:
+		* You can now place up to 7 different sections on the Home Template
+
+	Fixes & Updates:
+		* Improved sanitization for Customizer options
+		* Updated languages
+
+
+19 October 2016 - Version 2.0.1
+	Fixes & Updates:
+		* Added the correct font style to emma_fonts_url();
+		* Updated languages
+
+
+14 October 2016 - Version 2.0.0
+	New:
+		* Massive framework improvment, which is now based on Underscores
+		* Added TGM Plugin Activation support
+		* Added concated styles and scripts for faster performance 🚀
+		* Added ThemeBeans_Request_Feedback class
+		* Added WordPress 4.2- backwards compatibility notice
+		* Added new EMMA_DEBUG global variable for debugging purposes
+		* Added a new template-tags.php file, for template tags of course
+		* Moved template parts into the /template-parts/ directory
+		* Moved /assets/images/ to /images/
+		* Updated textdomain to 'emma' from 'bean'
+		* Removed the Customizer custom CSS module, in lieu of Simple Custom CSS [https://wordpress.org/plugins/simple-custom-css]
+		* Removed SEO settings, in lieu of Yoast SEO [https://wordpress.org/plugins/wordpress-seo]
+
+	Fixes & Updates:
+		* Improved theme updater class
+		* Improved Customizer sanitization functions
+		* Improved email sanitization callbacks
+		* Cleaned up unnecessary Bean Framework functions
+		* Updated screenshot for HiDPI screens
+		* Updated Theme Updater class with required admin permissions
+		* Updated pingback header function
+		* Security audit and relevant optimizations
+		* Updated comments
+		* Updated child theme
+		* Updated languages
+
+
+11 July 2016 - Version 1.5.2
+	 * Added new filters to the RSVP form (NEW)
+		- https://gist.github.com/richtabor/8de5c4e04c7fde2d4741573bf4f4df0d
+	 * Updated languages
+
+
+24 February 2016 - Version 1.5.1
+	 * Responsive hero images parallax fix
+	 * Updated languages
+
+
+25 January 2016 - Version 1.5.0
+	 * EDD_Theme_Updater Update
+	 	- You will need to re-activate your theme license.
+	 * Mobile hero image fix
+	 * Updated languages
+
+
+08 January 2016 - Version 1.4.3
+	* Dynamic Sidebar WP 4.4 fixes
+	* Updated languages
+
+
+3 November 2015 - Version 1.4.2
+	* Added style-min.css
+	* Site Icon WP 4.3 fix
+		- framework/functions/bean-admin-functions.php
+	* Updated languages
+
+
+31 August 2015 - Version 1.4.1
+	* 100% GPL license
+		- style.css (top comments)
+		- Read more: https://themebeans.com/news/all-themes-now-100-gpl/
+
+
+18 August 2015 - Version 1.4.0
+	* Added Customizer Export/Import support (NEW)
+		- More info: https://themebeans.com/?p=71018
+		- Download & Install: https://wordpress.org/plugins/customizer-export-import
+		- [theme]-package/customizer/[theme]-export.data (NEW)
+	* Improved optimization of image assets
+	* Added minified css/js files
+		- style.min.css (NEW)
+		- mobile.min.css (NEW)
+		- custom.min.js (NEW)
+		- custom-libraries.min.js (NEW)
+	* Theme Customizer update
+		- Moved Branding section to WP default Site Identity section
+		- Removed favicon & apple touch uploader (WP 4.3 is default)
+		- inc/customizer folder
+	* 4.3 widget __construct update
+		- inc/widgets folder
+	* Framework updated to v2.6.2.1
+		- WP 4.3 Theme Customizer update
+		- Custom CSS Editor UI/X update
+		- framework folder
+	* Updated languages
+
+
+30 April 2015 - Version 1.3.2
+	* XSS fix
+	* Theme Customizer UI improvements
+	* bean_custom_form_filters comments 4.2+ fix
+	* Framework updated to v2.2.5
+		- Updated Theme Customizer UI
+		- Updated Custom CSS Editor
+	* Updated languages
+
+
+3 April 2015 - Version 1.3.1
+	* Mobile optimizations (mobile.css)
+	* CSS Table of Contents added
+	* Framework updated to v2.2.4
+	* Theme Customizer UI update
+	* Updated languages
+	* Updated documentation
+
+
+10 March 2015 - Version 1.3
+	* RSVP Password protection added
+	* Updated languages
+
+
+14 January 2014 - Version 1.2.1
+	* Framework updated to v2.2.3.1
+		* Customizer image upload update
+	* Updated languages
+	* Updated documentation
+
+
+5 January 2014 - Version 1.2
+	* RSVP form updated
+		- Anti-spam $headers fix
+	* Improved shortcode styles
+	* Framework updated to v2.2.3
+	* Updated languages
+
+
+2 January 2015 - Version 1.1.1
+	* Framework updated to v2.2.1.1
+		- Theme Customizer slider ui CSS update
+	* RSVP form updated
+
+
+22 December 2014 - Version 1.1.0
+	* Framework updated to v2.2.1
+		- Updated Custom CSS Editor
+		- Notifications for theme updates
+		- Dashboard updating enabled
+		- Theme license admin page (NEW)
+		- Moved customizer functions to /framework
+	* Updated languages
+
+
+22 December 2014 - Version 1.1.0
+	* Framework updated to v2.2.1
+		- Updated Custom CSS Editor
+		- Notifications for theme updates
+		- Dashboard updating enabled
+		- Theme license admin page (NEW)
+		- Moved customizer functions to /framework
+	* Updated languages
+
+
+1 December 2014 - Version 1.0.0
+	 * Initial release

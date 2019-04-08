@@ -1,0 +1,507 @@
+# Copyright (C) 2019 Emma
+# This file is distributed under the same license as the Emma package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Emma\n"
+"Report-Msgid-Bugs-To: https://themebeans.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rich Tabor of ThemeBeans\n"
+"Language-Team: ThemeBeans\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:25
+msgid "We could not find the page you were looking for."
+msgstr ""
+
+#: 404.php:26
+msgid "Click here to go to the homepage"
+msgstr ""
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:43, comments.php:67
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:46, comments.php:70
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:47, comments.php:71
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:95
+msgid "Leave a Comment"
+msgstr ""
+
+#: functions.php:83, inc/starter-content.php:99
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:84
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:155
+msgid "Internal Sidebar"
+msgstr ""
+
+#: functions.php:157
+msgid "Appears on the single post pages."
+msgstr ""
+
+#: functions.php:252
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:257
+msgctxt "Questrial font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:378
+msgid "To view, enter the password below:"
+msgstr ""
+
+#: functions.php:379, functions.php:567, template-parts/content-rsvp.php:191
+msgid "Submit"
+msgstr ""
+
+#: functions.php:478
+msgid "<cite class=\"fn\">%s</cite> "
+msgstr ""
+
+#: functions.php:481
+msgid "(Author)"
+msgstr ""
+
+#: functions.php:485
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:485
+msgid "Edit"
+msgstr ""
+
+#: functions.php:500
+msgid "Awaiting Moderation"
+msgstr ""
+
+#: functions.php:533, template-parts/content-rsvp.php:103
+msgid "Name"
+msgstr ""
+
+#: functions.php:539, template-parts/content-rsvp.php:127
+msgid "Email"
+msgstr ""
+
+#: functions.php:545
+msgid "Website"
+msgstr ""
+
+#: functions.php:552
+msgid "Comment"
+msgstr ""
+
+#: functions.php:554
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions.php:555
+msgid "Currently logged in as <a href=\"%1$s\">%2$s</a> / <a href=\"%3$s\" title=\"Log out of this account\">Logout</a>"
+msgstr ""
+
+#: functions.php:564
+msgid ""
+msgstr ""
+
+#: functions.php:565
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions.php:566, inc/meta/metaboxes.php:214
+msgid "Cancel"
+msgstr ""
+
+#: header.php:95, inc/customizer/customizer.php:89
+msgid "Emma & Avery"
+msgstr ""
+
+#: header.php:105, inc/customizer/customizer.php:106
+msgid "Are Getting Married"
+msgstr ""
+
+#: header.php:106, inc/customizer/customizer.php:123
+msgid "November 21, 2017"
+msgstr ""
+
+#: inc/customizer/customizer.php:22
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:30
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:31
+msgid "Customize various options throughout the theme with the settings within this panel."
+msgstr ""
+
+#: inc/customizer/customizer.php:57
+msgid "Logo Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:82
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/customizer.php:97
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:114
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer/customizer.php:131
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/customizer.php:160
+msgid "Home Section %d"
+msgstr ""
+
+#: inc/customizer/customizer.php:161
+msgid "Select pages to feature in on your home page. Add an image to a section by setting a featured image in the page editor."
+msgstr ""
+
+#: inc/customizer/customizer.php:188
+msgid "Accent"
+msgstr ""
+
+#: inc/customizer/customizer.php:204
+msgid "CSS3 Filter"
+msgstr ""
+
+#: inc/customizer/customizer.php:205
+msgid "Enable the CSS filtering effect on posts. Please note that this only works in modern browsers."
+msgstr ""
+
+#: inc/customizer/customizer.php:208
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:209
+msgid "Black and White"
+msgstr ""
+
+#: inc/customizer/customizer.php:210
+msgid "Sepia"
+msgstr ""
+
+#: inc/customizer/customizer.php:220
+msgid "RSVP"
+msgstr ""
+
+#: inc/customizer/customizer.php:235
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer/customizer.php:236
+msgid "Enter the email address you would like the RSVP form to send to."
+msgstr ""
+
+#: inc/meta/meta-page.php:17
+msgid "Page Settings"
+msgstr ""
+
+#: inc/meta/meta-page.php:23
+msgid "Page Tagline:"
+msgstr ""
+
+#: inc/meta/meta-page.php:26
+msgid "Display a page tagline in your page hero area."
+msgstr ""
+
+#: inc/meta/meta-page.php:30
+msgid "Featured Image Background:"
+msgstr ""
+
+#: inc/meta/meta-page.php:33
+msgid "Display your featured image as the page background, if this page is output on the Home Template."
+msgstr ""
+
+#: inc/meta/meta-page.php:37
+msgid "Hero Text Color:"
+msgstr ""
+
+#: inc/meta/meta-page.php:40
+msgid "Adjust the color for your text overlaid on the background featured image."
+msgstr ""
+
+#: inc/meta/metaboxes.php:91, inc/meta/metaboxes.php:139
+msgid "Insert"
+msgstr ""
+
+#: inc/meta/metaboxes.php:145, inc/meta/metaboxes.php:261
+msgid "Saving..."
+msgstr ""
+
+#: inc/meta/metaboxes.php:201
+msgid "Create Gallery"
+msgstr ""
+
+#: inc/meta/metaboxes.php:208, inc/meta/metaboxes.php:215, inc/meta/metaboxes.php:324, inc/meta/metaboxes.php:326
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/meta/metaboxes.php:251
+msgid "Save Gallery"
+msgstr ""
+
+#: inc/meta/metaboxes.php:411
+msgid "Yes, please do"
+msgstr ""
+
+#: inc/plugins.php:23
+msgid "Wedding Registry"
+msgstr ""
+
+#: inc/starter-content.php:24
+msgctxt "Theme starter content"
+msgid "Emma"
+msgstr ""
+
+#: inc/starter-content.php:25
+msgctxt "Theme starter content"
+msgid "A WordPress theme by ThemeBeans"
+msgstr ""
+
+#: inc/starter-content.php:30
+msgctxt "Theme starter content"
+msgid "Home Featured Image"
+msgstr ""
+
+#: inc/starter-content.php:34
+msgctxt "Theme starter content"
+msgid "RSVP Featured Image"
+msgstr ""
+
+#: inc/starter-content.php:38
+msgctxt "Theme starter content"
+msgid "She Said Yes Featured Image"
+msgstr ""
+
+#: inc/starter-content.php:42
+msgctxt "Theme starter content"
+msgid "Registry Featured Image"
+msgstr ""
+
+#: inc/starter-content.php:46
+msgctxt "Theme starter content"
+msgid "Wedding Gifts Featured Image"
+msgstr ""
+
+#: inc/starter-content.php:55
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr ""
+
+#: inc/starter-content.php:62
+msgctxt "Theme starter content"
+msgid "RSVP"
+msgstr ""
+
+#: inc/starter-content.php:69
+msgctxt "Theme starter content"
+msgid "Registry"
+msgstr ""
+
+#: inc/starter-content.php:75
+msgctxt "Theme starter content"
+msgid "He Proposed"
+msgstr ""
+
+#: inc/starter-content.php:80
+msgctxt "Theme starter content"
+msgid "She Said Yes!"
+msgstr ""
+
+#: inc/starter-content.php:86
+msgctxt "Theme starter content"
+msgid "The Big Day"
+msgstr ""
+
+#: inc/starter-content.php:91
+msgctxt "Theme starter content"
+msgid "Wedding Gifts"
+msgstr ""
+
+#: inc/starter-content.php:121
+msgctxt "Theme starter content"
+msgid "Emmma"
+msgstr ""
+
+#: inc/starter-content.php:122
+msgctxt "Theme starter content"
+msgid "An exceptionally beautiful engagement & wedding WordPress theme, built for displaying your special occasion's details and collecting your RSVPs."
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/template-tags.php:147, inc/template-tags.php:149
+msgid "All posts in: %s"
+msgstr ""
+
+#: inc/template-tags.php:152, inc/template-tags.php:154, inc/template-tags.php:156
+msgid "Archive for: %s"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:167
+msgid "All posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:173
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:16
+msgid "Flickr Photos"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:17
+msgid "Add a Flickr feed widget."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:108
+msgid "Title / Intro:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:117
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:122
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:140
+msgid "Display:"
+msgstr ""
+
+#: page.php:27, single.php:39, template-rsvp.php:31
+msgid "Pages:"
+msgstr ""
+
+#: search.php:36
+msgid "No Results"
+msgstr ""
+
+#: search.php:38
+msgid "Please Search Again"
+msgstr ""
+
+#: search.php:41, search.php:41, search.php:41
+msgid "To search type & hit enter"
+msgstr ""
+
+#: single-attachment.php:24
+msgid "Uploaded "
+msgstr ""
+
+#: single.php:43
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-rsvp.php:82
+msgid "Your RSVP has been sent. Thanks."
+msgstr ""
+
+#: template-parts/content-rsvp.php:92
+msgid "An error occurred. Try again."
+msgstr ""
+
+#: template-parts/content-rsvp.php:111, template-parts/content-rsvp.php:159
+msgid "First Name"
+msgstr ""
+
+#: template-parts/content-rsvp.php:120, template-parts/content-rsvp.php:168
+msgid "Last Name"
+msgstr ""
+
+#: template-parts/content-rsvp.php:139
+msgid "Will you be coming?"
+msgstr ""
+
+#: template-parts/content-rsvp.php:151
+msgid "Plus One"
+msgstr ""
+
+#: template-parts/content-rsvp.php:174
+msgid "Message"
+msgstr ""
+
+#: template-parts/content-single.php:21
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: template-parts/page-loop.php:52
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/post-meta.php:14
+msgid "Permalink to %s"
+msgstr ""
+
+#: template-parts/post-meta.php:14
+msgid "Date:"
+msgstr ""
+
+#: template-parts/post-meta.php:16
+msgid "Posted in:"
+msgstr ""
+
+#: template-parts/post-meta.php:19
+msgid "Tags:"
+msgstr ""
+
+#: template-parts/post-meta.php:22
+msgid "[Edit]"
+msgstr ""
